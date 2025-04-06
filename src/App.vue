@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-10 top-0" :class="{ hidden: hideHeader }">header</div>
+  <div class="fixed z-10 top-0" :class="{ hidden: hideHeader }"><Header /></div>
   <main class="">
     <RouterView />
   </main>
@@ -38,6 +38,8 @@
 <script setup>
 import { onMounted, ref } from "vue";
 import { RouterView } from "vue-router";
+
+import Header from "@/components/layouts/Header.vue";
 import AOS from "aos";
 
 const showScrollButton = ref(false);

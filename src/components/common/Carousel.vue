@@ -14,7 +14,7 @@
       :key="currentComponent.id"
       class="w-full h-full flex flex-col justify-center items-start p-10 text-white duration-1000"
     >
-      <h2 class="text-6xl font-bold mb-4" data-aos="zoom-in">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4" data-aos="zoom-in">
         {{ currentComponent.title }}
       </h2>
       <p class="text-lg max-w-xl" data-aos="zoom-in" data-aos-delay="200">
@@ -35,21 +35,21 @@ const carouselComponents = ref([
     title: "Atención compasiva, resultados excepcionales.",
     description:
       "Nuestro equipo de médicos y profesionales de la salud está comprometido con brindar una medicina de calidad, compasiva y personalizada para los pacientes.",
-    bgImage: "https://picsum.photos/id/1011/1200/600",
+    bgImage: "/src/assets/imgs/carousel/3.avif",
   },
   {
     id: 2,
     title: "Impulsando tu camino hacia la salud",
     description:
       "Ofrecemos planes de atención personalizados adaptados a tus necesidades únicas, ayudándote a vivir una vida más plena y saludable.",
-    bgImage: "https://picsum.photos/id/1012/1200/600",
+    bgImage: "/src/assets/imgs/carousel/2.avif",
   },
   {
     id: 3,
     title: "Tecnología médica de vanguardia",
     description:
       "Accedé a lo último en innovación médica y opciones de tratamiento con nuestras instalaciones de última generación.",
-    bgImage: "https://picsum.photos/id/1015/1200/600",
+    bgImage: "/src/assets/imgs/carousel/1.avif",
   },
 ]);
 
