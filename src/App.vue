@@ -1,6 +1,6 @@
 <template>
   <div class="fixed z-10 top-0" :class="{ hidden: hideHeader }">header</div>
-  <main class="mt-[75px] md:mt-[90px]">
+  <main class="">
     <RouterView />
   </main>
   <div>Footer</div>
