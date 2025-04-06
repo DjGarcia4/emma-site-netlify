@@ -1,5 +1,5 @@
 <template>
-  <div>Home</div>
+  <div class="w-full h-[200px] bg-primary">Home</div>
 </template>
 
 <script setup>
