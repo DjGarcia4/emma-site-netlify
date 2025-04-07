@@ -5,7 +5,7 @@
   </main>
   <div>Footer</div>
 
-  <Transition
+  <!-- <Transition
     enter-active-class="animate__animated animate__backInRight   "
     leave-active-class="animate__animated animate__backOutRight"
   >
@@ -32,7 +32,7 @@
         <path d="M4 20l16 0" />
       </svg>
     </button>
-  </Transition>
+  </Transition> -->
 </template>
 
 <script setup>

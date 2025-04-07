@@ -12,6 +12,15 @@ import Toast from "vue-toastification";
 import { VueFire, VueFireAuth } from "vuefire";
 import { firebaseApp } from "./config/firebase";
 
+// Font Awesome
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { fas } from "@fortawesome/free-solid-svg-icons"; // íconos sólidos
+import { far } from "@fortawesome/free-regular-svg-icons";
+library.add(far);
+
+library.add(fas);
+
 const app = createApp(App);
 const options = {
   position: "top-right",
@@ -28,6 +37,7 @@ const options = {
   rtl: false,
 };
 
+app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(Toast, options);
 app.use(VueFire, {
   firebaseApp,
