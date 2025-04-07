@@ -3,7 +3,7 @@
   <main class="">
     <RouterView />
   </main>
-  <div>Footer</div>
+  <Footer />
 
   <!-- <Transition
     enter-active-class="animate__animated animate__backInRight   "
@@ -40,6 +40,8 @@ import { onMounted, ref } from "vue";
 import { RouterView } from "vue-router";
 
 import Header from "@/components/layouts/Header.vue";
+import Footer from "@/components/layouts/Footer.vue";
+
 import AOS from "aos";
 
 const showScrollButton = ref(false);

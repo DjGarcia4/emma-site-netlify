@@ -1,31 +1,73 @@
 <template>
-  <section class="bg-white">
-    <div class="mx-auto max-w-7xl p-6 lg:p-3 gap-5 flex flex-col">
-      <div class="w-full text-center">
-        <h3 class="text-gray-500 uppercase text-xl">Para tu salud</h3>
-        <h2
-          class="text-4xl md:text-5xl font-semibold text-primary mt-2 leading-tight"
+  <section class="relative px-4 py-6">
+    <!-- Fondo curvo verde -->
+    <div
+      class="relative z-0 max-w-7xl mx-auto h-72 bg-gradient-to-br from-green-100 to-green-200 rounded-3xl"
+    ></div>
+
+    <!-- Cards flotando encima -->
+    <div class="relative z-10 max-w-7xl mx-auto -mt-48">
+      <h2 class="text-center text-3xl font-bold text-green-900 mb-12">
+        Departamentos
+      </h2>
+
+      <div class="relative">
+        <!-- Flecha Izquierda -->
+        <button
+          @click="scrollLeft"
+          class="absolute left-0 top-1/2 -translate-y-1/2 bg-green-600 text-white p-3 rounded-full shadow-lg z-20 cursor-pointer"
         >
-          Nuestros Departamentos
-        </h2>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <font-awesome-icon icon="fa-solid fa-chevron-left" />
+        </button>
+
+        <!-- Cards Scrollables -->
         <div
-          v-for="(dept, index) in departments"
-          :key="index"
-          class="flex gap-5 items-center justify-center border border-primary p-5 rounded-xl text-primary h-[130px] hover:bg-primary hover:text-white transition-all cursor-pointer"
+          ref="scrollContainer"
+          class="overflow-x-auto no-scrollbar scroll-smooth flex gap-6 px-10"
         >
-          <span class="text-5xl">
-            <font-awesome-icon :icon="['fas', dept.icon]" />
-          </span>
-          <p class="text-2xl md:text-2xl text-left">{{ dept.name }}</p>
+          <div
+            v-for="dept in departments"
+            :key="dept.name"
+            @click="selected = dept.name"
+            class="flex-shrink-0 flex flex-col justify-center items-center text-center p-5 w-40 h-40 rounded-xl transition-all duration-300 cursor-pointer shadow-md hover:scale-105 hover:shadow-lg my-3"
+            :class="
+              selected === dept.name
+                ? 'bg-green-600 text-white'
+                : 'bg-white text-green-800 hover:bg-green-100'
+            "
+          >
+            <font-awesome-icon :icon="dept.icon" class="text-3xl mb-3" />
+            <p class="text-sm font-medium leading-tight text-center">
+              {{ dept.name }}
+            </p>
+          </div>
         </div>
+
+        <!-- Flecha Derecha -->
+        <button
+          @click="scrollRight"
+          class="absolute right-0 top-1/2 -translate-y-1/2 bg-green-600 text-white p-3 rounded-full shadow-lg z-20 cursor-pointer"
+        >
+          <font-awesome-icon icon="fa-solid fa-chevron-right" />
+        </button>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import { ref } from "vue";
+
+const selected = ref("Informática");
+const scrollContainer = ref(null);
+
+const scrollRight = () => {
+  scrollContainer.value.scrollLeft += 280;
+};
+const scrollLeft = () => {
+  scrollContainer.value.scrollLeft -= 280;
+};
+
 const departments = [
   { icon: "fa-atom", name: "Medicina nuclear" },
   { icon: "fa-stethoscope", name: "Gastroenterología" },
@@ -47,3 +89,13 @@ const departments = [
   { icon: "fa-wave-square", name: "Física médica" },
 ];
 </script>
+
+<style scoped>
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>

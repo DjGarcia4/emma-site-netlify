@@ -1,6 +1,8 @@
 <template>
   <section class="bg-white">
-    <div class="mx-auto max-w-7xl p-6 lg:p-3 flex items-center gap-5">
+    <div
+      class="mx-auto max-w-7xl p-6 lg:p-3 flex flex-col md:flex-row items-center gap-5"
+    >
       <!-- Texto -->
       <div class="md:w-1/2">
         <h3 class="text-gray-500 uppercase text-xl">

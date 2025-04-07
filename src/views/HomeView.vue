@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-20">
+  <div class="lg:space-y-16">
     <Carousel />
     <InfoBlock
       subtitle="Acerca de Nosotros"
@@ -8,7 +8,8 @@
       imageSrc="/src/assets/imgs/doctors/1.png"
       imageAlt="Doctores trabajando"
     />
-    <!-- <DepartmentsSection /> -->
+    <DepartmentsSection />
+    <HealthCallToAction />
   </div>
 </template>
 
@@ -17,7 +18,8 @@ import { onMounted } from "vue";
 
 import Carousel from "@/components/common/Carousel.vue";
 import InfoBlock from "@/components/common/InfoBlock.vue";
-// import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
+import HealthCallToAction from "@/components/sections/HealthCallToAction.vue";
+import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
 
 onMounted(() => {
   setTimeout(() => {
