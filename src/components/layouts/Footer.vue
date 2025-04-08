@@ -21,7 +21,7 @@
 
     <!-- Contenido principal -->
     <div
-      class="relative z-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm"
+      class="relative z-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm mt-10"
     >
       <!-- Columna 1 -->
       <div>

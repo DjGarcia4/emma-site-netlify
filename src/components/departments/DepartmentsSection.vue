@@ -15,7 +15,7 @@
         <!-- Flecha Izquierda -->
         <button
           @click="scrollLeft"
-          class="absolute left-0 top-1/2 -translate-y-1/2 bg-green-600 text-white p-3 rounded-full shadow-lg z-20 cursor-pointer"
+          class="absolute left-0 top-1/2 -translate-y-1/2 bg-green-600 text-white py-3 px-4.5 rounded-full shadow-lg z-20 cursor-pointer"
         >
           <font-awesome-icon icon="fa-solid fa-chevron-left" />
         </button>
@@ -46,7 +46,7 @@
         <!-- Flecha Derecha -->
         <button
           @click="scrollRight"
-          class="absolute right-0 top-1/2 -translate-y-1/2 bg-green-600 text-white p-3 rounded-full shadow-lg z-20 cursor-pointer"
+          class="absolute right-0 top-1/2 -translate-y-1/2 bg-green-600 text-white py-3 px-4.5 rounded-full shadow-lg z-20 cursor-pointer"
         >
           <font-awesome-icon icon="fa-solid fa-chevron-right" />
         </button>
