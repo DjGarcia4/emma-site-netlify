@@ -1,4 +1,5 @@
 <template>
+  <ContactForm />
   <footer
     class="relative bg-gradient-to-b from-white to-green-300 text-gray-700 pt-32 pb-10 px-6 md:px-16 overflow-hidden"
   >
@@ -118,3 +119,7 @@
     <!-- Logo institucional -->
   </footer>
 </template>
+
+<script setup>
+import ContactForm from "@/components/forms/ContactForm.vue";
+</script>

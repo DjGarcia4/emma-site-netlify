@@ -14,7 +14,7 @@
         <article
           v-for="(post, index) in posts"
           :key="index"
-          class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl"
+          class="bg-white rounded-2xl shadow-md overflow-hidden transition hover:shadow-xl"
         >
           <img :src="post.image" alt="" class="w-full h-48 object-cover" />
           <div class="p-5">
