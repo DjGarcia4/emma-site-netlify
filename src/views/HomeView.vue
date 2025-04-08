@@ -17,8 +17,6 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
-
 import Carousel from "@/components/common/Carousel.vue";
 import InfoBlock from "@/components/common/InfoBlock.vue";
 import HealthCallToAction from "@/components/sections/HealthCallToAction.vue";
@@ -26,12 +24,6 @@ import DepartmentsSection from "@/components/departments/DepartmentsSection.vue"
 import WhatWeDoSection from "@/components/sections/WhatWeDoSection.vue";
 import TestimonialsSection from "@/components/sections/TestimonialsSection.vue";
 import BlogSection from "@/components/blog/BlogSection.vue";
-
-onMounted(() => {
-  setTimeout(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, 10);
-});
 </script>
 
 <style scoped></style>

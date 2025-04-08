@@ -1,3 +1,4 @@
+import { onMounted } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
@@ -19,17 +20,23 @@ const router = createRouter({
     //   name: "product",
     //   component: ProductView,
     // },
-    // {
-    //   path: "/about",
-    //   name: "about",
-    //   component: () => import("../views/AboutView.vue"),
-    // },
+    {
+      path: "/about-us",
+      name: "about-us",
+      component: () => import("../views/About-usView.vue"),
+    },
     // {
     //   path: "/contact",
     //   name: "contact",
     //   component: () => import("../views/ContactView.vue"),
     // },
   ],
+});
+router.beforeEach(async (to, from, next) => {
+  setTimeout(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, 10);
+  next();
 });
 
 export default router;
