@@ -12,6 +12,7 @@
     <HealthCallToAction />
     <WhatWeDoSection />
     <TestimonialsSection />
+    <BlogSection />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import HealthCallToAction from "@/components/sections/HealthCallToAction.vue";
 import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
 import WhatWeDoSection from "@/components/sections/WhatWeDoSection.vue";
 import TestimonialsSection from "@/components/sections/TestimonialsSection.vue";
+import BlogSection from "@/components/blog/BlogSection.vue";
 
 onMounted(() => {
   setTimeout(() => {
