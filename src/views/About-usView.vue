@@ -1,7 +1,21 @@
 <template>
-  <div class="mt-[75px] md:mt-[90px]">About us</div>
+  <div class="mt-[75px] md:mt-[105px] space-y-7">
+    <WhyChooseUs />
+    <CallToAction
+      image="/src/assets/imgs/timeline/1990-1.jpg"
+      title="Conocé cómo comenzó todo"
+      description="Descubrí la historia del Centro de Cáncer Emma Romero de Callejas, desde sus inicios humildes hasta convertirse en un referente nacional en la lucha contra el cáncer. Cada año, un paso más cerca de la esperanza."
+      buttonText="Ver nuestra historia"
+      buttonTo="/history"
+    />
+    <ServicesSection />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import WhyChooseUs from "@/components/sections/WhyChooseUs.vue";
+import ServicesSection from "@/components/services/ServicesSection.vue";
+import CallToAction from "@/components/sections/CallToAction.vue";
+</script>
 
 <style scoped></style>

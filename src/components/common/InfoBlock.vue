@@ -5,14 +5,14 @@
     >
       <!-- Texto -->
       <div class="md:w-1/2">
-        <h3 class="text-gray-500 uppercase text-xl">
-          {{ subtitle }}
-        </h3>
-        <h2
-          class="text-4xl md:text-5xl font-semibold text-primary mt-2 leading-tight"
-        >
-          {{ title }}
-        </h2>
+        <div class="w-full">
+          <p class="text-green-600 font-semibold uppercase tracking-wide">
+            {{ subtitle }}
+          </p>
+          <h2 class="text-4xl font-extrabold text-gray-800">
+            {{ title }}
+          </h2>
+        </div>
         <p class="text-gray-500 mt-6 text-base">
           {{ description }}
         </p>

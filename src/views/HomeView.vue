@@ -9,7 +9,13 @@
       imageAlt="Doctores trabajando"
     />
     <DepartmentsSection />
-    <HealthCallToAction />
+    <CallToAction
+      image="/src/assets/imgs/doctors/2.avif"
+      title="¡No pongas tu salud en segundo plano!"
+      description="Agenda una cita con uno de nuestros especialistas y toma el control de tu salud hoy mismo."
+      buttonText="Agendar cita"
+      buttonTo="/contacto"
+    />
     <WhatWeDoSection />
     <TestimonialsSection />
     <BlogSection />
@@ -19,7 +25,7 @@
 <script setup>
 import Carousel from "@/components/common/Carousel.vue";
 import InfoBlock from "@/components/common/InfoBlock.vue";
-import HealthCallToAction from "@/components/sections/HealthCallToAction.vue";
+import CallToAction from "@/components/sections/CallToAction.vue";
 import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
 import WhatWeDoSection from "@/components/sections/WhatWeDoSection.vue";
 import TestimonialsSection from "@/components/sections/TestimonialsSection.vue";
