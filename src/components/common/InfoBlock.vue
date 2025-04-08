@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white">
     <div
-      class="mx-auto max-w-7xl p-6 lg:p-3 flex flex-col md:flex-row items-center gap-5"
+      class="mx-auto max-w-7xl p-6 lg:p-3 flex flex-col md:flex-row items-center gap-8"
     >
       <!-- Texto -->
       <div class="md:w-1/2">
@@ -23,7 +23,7 @@
         <img
           :src="imageSrc"
           :alt="imageAlt"
-          class="rounded-xl shadow-lg w-full object-cover"
+          class="rounded-2xl shadow-lg w-full object-cover"
         />
       </div>
     </div>

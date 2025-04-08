@@ -1,5 +1,5 @@
 <template>
-  <div class="py-3">
+  <div class="">
     <Nav />
   </div>
 </template>
