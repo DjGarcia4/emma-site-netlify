@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 px-4 md:px-12 bg-white">
+  <section class="px-4 md:px-12 bg-white">
     <div class="max-w-7xl mx-auto">
       <!-- Grid de tarjetas -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
