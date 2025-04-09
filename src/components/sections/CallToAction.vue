@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto max-w-7xl p-6 lg:p-3">
     <section
-      class="w-full h-[250px] md:h-[300px] lg:h-[400px] rounded-2xl overflow-hidden relative grid grid-cols-1 lg:grid-cols-2 shadow"
+      class="w-full h-[40vh] md:h-[300px] lg:h-[400px] rounded-2xl overflow-hidden relative grid grid-cols-1 lg:grid-cols-2 shadow"
       :style="{
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
