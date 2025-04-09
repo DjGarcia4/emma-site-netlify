@@ -7,6 +7,8 @@
       description="Nuestro equipo multidisciplinario está comprometido con ofrecer atención médica de calidad y personalizada."
       imageSrc="/src/assets/imgs/doctors/1.png"
       imageAlt="Doctores trabajando"
+      buttonText="Más sobre nosotros"
+      buttonTo="/about-us"
     />
     <DepartmentsSection />
     <CallToAction

@@ -8,6 +8,7 @@
       buttonText="Ver nuestra historia"
       buttonTo="/history"
     />
+    <OurValues />
     <ServicesSection />
   </div>
 </template>
@@ -16,6 +17,7 @@
 import WhyChooseUs from "@/components/sections/WhyChooseUs.vue";
 import ServicesSection from "@/components/services/ServicesSection.vue";
 import CallToAction from "@/components/sections/CallToAction.vue";
+import OurValues from "@/components/sections/OurValues.vue";
 </script>
 
 <style scoped></style>

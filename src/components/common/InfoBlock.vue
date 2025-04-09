@@ -4,7 +4,7 @@
       class="mx-auto max-w-7xl p-6 lg:p-3 flex flex-col md:flex-row items-center gap-8"
     >
       <!-- Texto -->
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 space-y-5">
         <div class="w-full">
           <p class="text-green-600 font-semibold uppercase tracking-wide">
             {{ subtitle }}
@@ -16,6 +16,13 @@
         <p class="text-gray-500 mt-6 text-base">
           {{ description }}
         </p>
+        <RouterLink
+          v-if="buttonText && buttonTo"
+          :to="buttonTo"
+          class="inline-block bg-primary text-white font-semibold px-5 py-2 rounded-full transition"
+        >
+          {{ buttonText }}
+        </RouterLink>
       </div>
 
       <!-- Imagen -->
@@ -52,6 +59,14 @@ defineProps({
   imageAlt: {
     type: String,
     default: "Equipo médico en acción",
+  },
+  buttonText: {
+    type: String,
+    default: "",
+  },
+  buttonTo: {
+    type: String,
+    default: "",
   },
 });
 </script>
