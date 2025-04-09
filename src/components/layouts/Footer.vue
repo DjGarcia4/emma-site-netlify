@@ -31,14 +31,19 @@
         </h2>
         <ul class="space-y-2">
           <li class="flex items-center gap-2">
-            <i class="fas fa-map-marker-alt text-green-600"></i> Blvd. Fuerzas
-            Armadas, Tegucigalpa
+            <font-awesome-icon
+              icon=" fas fa-map-marker-alt"
+              class="text-green-600"
+            />
+            Colonia Lomas del Guijarro II Etapa
           </li>
           <li class="flex items-center gap-2">
-            <i class="fas fa-phone text-green-600"></i> +504 2234-5678
+            <font-awesome-icon icon="fas fa-phone" class="text-green-600" />
+            +504 2239-2386 / 2239-2673
           </li>
           <li class="flex items-center gap-2">
-            <i class="fas fa-envelope text-green-600"></i> contacto@ccerc.org
+            <font-awesome-icon icon="fas fa-envelope" class="text-green-600" />
+            direccionmedica@centrodecancerhn.org
           </li>
         </ul>
       </div>
@@ -47,25 +52,30 @@
       <div class="grid grid-cols-2 gap-4">
         <ul class="space-y-2">
           <li>
-            <RouterLink to="/nosotros" class="hover:text-green-700"
+            <RouterLink to="/about-us" class="hover:text-green-700"
               >Nosotros</RouterLink
             >
           </li>
           <li>
-            <RouterLink to="/servicios" class="hover:text-green-700"
+            <RouterLink to="/services" class="hover:text-green-700"
               >Servicios Médicos</RouterLink
             >
           </li>
           <li>
+            <RouterLink to="/departments/all" class="hover:text-green-700"
+              >Departamentos</RouterLink
+            >
+          </li>
+          <!-- <li>
             <RouterLink to="/voluntariado" class="hover:text-green-700"
               >Voluntariado</RouterLink
             >
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <RouterLink to="/apoya" class="hover:text-green-700"
               >¡Apoya Ahora!</RouterLink
             >
-          </li>
+          </li> -->
         </ul>
         <ul class="space-y-2">
           <li>
@@ -74,20 +84,25 @@
             >
           </li>
           <li>
+            <RouterLink to="/history" class="hover:text-green-700"
+              >Historia</RouterLink
+            >
+          </li>
+          <!-- <li>
             <RouterLink to="/contacto" class="hover:text-green-700"
               >Contacto</RouterLink
             >
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <RouterLink to="/faq" class="hover:text-green-700"
               >Preguntas Frecuentes</RouterLink
             >
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <RouterLink to="/terminos" class="hover:text-green-700"
               >Términos y Condiciones</RouterLink
             >
-          </li>
+          </li> -->
         </ul>
       </div>
 

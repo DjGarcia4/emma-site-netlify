@@ -12,7 +12,7 @@
     />
     <DepartmentsSection />
     <ServicesSection />
-    <CallToAction
+    <AppointmentForm
       image="/src/assets/imgs/doctors/2.avif"
       title="¡No pongas tu salud en segundo plano!"
       description="Agenda una cita con uno de nuestros especialistas y toma el control de tu salud hoy mismo."
@@ -29,6 +29,7 @@
 import Carousel from "@/components/common/Carousel.vue";
 import InfoBlock from "@/components/common/InfoBlock.vue";
 import CallToAction from "@/components/sections/CallToAction.vue";
+import AppointmentForm from "@/components/forms/AppointmentForm.vue";
 import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
 
 import ServicesSection from "@/components/services/ServicesSection.vue";
