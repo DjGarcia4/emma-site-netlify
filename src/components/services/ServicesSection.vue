@@ -31,13 +31,6 @@
             {{ service.title }}
           </h4>
           <p class="text-sm text-gray-600 mt-2">{{ service.description }}</p>
-
-          <!-- Flecha -->
-          <div
-            class="w-9 h-9 bg-green-100 text-green-700 rounded-full flex items-center justify-center absolute bottom-2 right-2 hover:bg-green-200 transition cursor-pointer"
-          >
-            <span>&rarr;</span>
-          </div>
         </div>
       </div>
       <div class="mt-8 flex justify-end items-center">

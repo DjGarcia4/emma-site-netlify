@@ -11,6 +11,7 @@
       buttonTo="/about-us"
     />
     <DepartmentsSection />
+    <ServicesSection />
     <CallToAction
       image="/src/assets/imgs/doctors/2.avif"
       title="¡No pongas tu salud en segundo plano!"
@@ -29,6 +30,8 @@ import Carousel from "@/components/common/Carousel.vue";
 import InfoBlock from "@/components/common/InfoBlock.vue";
 import CallToAction from "@/components/sections/CallToAction.vue";
 import DepartmentsSection from "@/components/departments/DepartmentsSection.vue";
+
+import ServicesSection from "@/components/services/ServicesSection.vue";
 import WhatWeDoSection from "@/components/sections/WhatWeDoSection.vue";
 import TestimonialsSection from "@/components/sections/TestimonialsSection.vue";
 import BlogSection from "@/components/blog/BlogSection.vue";
