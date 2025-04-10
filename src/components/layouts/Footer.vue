@@ -79,7 +79,7 @@
         </ul>
         <ul class="space-y-2">
           <li>
-            <RouterLink to="/blog" class="hover:text-green-700"
+            <RouterLink to="/blogs" class="hover:text-green-700"
               >Blog</RouterLink
             >
           </li>
