@@ -9,8 +9,8 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 import Toast from "vue-toastification";
-import { VueFire, VueFireAuth } from "vuefire";
-import { firebaseApp } from "./config/firebase";
+// import { VueFire, VueFireAuth } from "vuefire";
+// import { firebaseApp } from "./config/firebase";
 
 // Font Awesome
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -39,10 +39,10 @@ const options = {
 
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(Toast, options);
-app.use(VueFire, {
-  firebaseApp,
-  modules: [VueFireAuth()],
-});
+// app.use(VueFire, {
+//   firebaseApp,
+//   modules: [VueFireAuth()],
+// });
 app.use(createPinia());
 app.use(router);
 
