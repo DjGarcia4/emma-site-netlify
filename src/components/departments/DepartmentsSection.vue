@@ -97,7 +97,7 @@
       </div>
 
       <!-- Botón Ver mas departamentos -->
-      <div class="mt-8 flex justify-end items-center">
+      <!-- <div class="mt-8 flex justify-end items-center">
         <RouterLink
           to="/departments/all"
           class="text-green-700 font-semibold flex items-center gap-2 hover:text-green-900 transition cursor-pointer"
@@ -105,7 +105,7 @@
           Ver departamentos
           <font-awesome-icon icon="fas fa-arrow-right" />
         </RouterLink>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
