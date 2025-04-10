@@ -152,6 +152,8 @@ const scrolledOrForced = computed(() => {
 const routes = [
   { name: "Inicio", href: "/" },
   { name: "Sobre nosotros", href: "/about-us" },
+  { name: "Servicios", href: "/services" },
+  // { name: "Departamentos", href: "/departments" },
   { name: "Contactenos", href: "#" },
 ];
 

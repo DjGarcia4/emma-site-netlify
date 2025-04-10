@@ -53,11 +53,11 @@
           </div>
 
           <div>
-            <label class="text-sm text-gray-600 block mb-1">Team</label>
+            <label class="text-sm text-gray-600 block mb-1">Asunto</label>
             <input
-              v-model="form.team"
+              v-model="form.asunto"
               type="text"
-              placeholder="Nombre del equipo o doctor"
+              placeholder="Asunto"
               class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 placeholder-gray-400 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
@@ -122,7 +122,7 @@ import { reactive } from "vue";
 const form = reactive({
   name: "",
   email: "",
-  team: "",
+  asunto: "",
   date: "",
   time: "",
   department: "",
