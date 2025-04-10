@@ -47,43 +47,12 @@
               class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 placeholder-gray-400 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
-
           <div>
-            <label class="text-sm text-gray-600 block mb-1">Asunto</label>
+            <label class="text-sm text-gray-600 block mb-1">Teléfono</label>
             <input
-              v-model="form.asunto"
-              type="text"
-              placeholder="Asunto"
-              class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 placeholder-gray-400 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
-            />
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600 block mb-1"
-              >Fecha de la cita</label
-            >
-            <input
-              v-model="form.date"
-              type="date"
-              class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
-            />
-          </div>
-
-          <div>
-            <label class="text-sm text-gray-600 block mb-1">Hora</label>
-            <input
-              v-model="form.time"
-              type="time"
-              class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
-            />
-          </div>
-
-          <div class="md:col-span-2">
-            <label class="text-sm text-gray-600 block mb-1">Departamento</label>
-            <input
-              v-model="form.department"
-              type="text"
-              placeholder="Ej. Oncología, Diagnóstico, etc."
+              v-model="form.phone"
+              type="tel"
+              placeholder="(504) 9999-9999"
               class="w-full bg-white border border-gray-300 rounded-xl px-4 py-3 text-sm text-gray-700 placeholder-gray-400 shadow-inner focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
@@ -118,10 +87,7 @@ import { reactive } from "vue";
 const form = reactive({
   name: "",
   email: "",
-  asunto: "",
-  date: "",
-  time: "",
-  department: "",
+  phone: "",
   message: "",
 });
 </script>
