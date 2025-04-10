@@ -35,21 +35,21 @@ const carouselComponents = ref([
     title: "Atención compasiva, resultados excepcionales.",
     description:
       "Nuestro equipo de médicos y profesionales de la salud está comprometido con brindar una medicina de calidad, compasiva y personalizada para los pacientes.",
-    bgImage: "/src/assets/imgs/carousel/3.avif",
+    bgImage: "/imgs/carousel/3.avif",
   },
   {
     id: 2,
     title: "Impulsando tu camino hacia la salud",
     description:
       "Ofrecemos planes de atención personalizados adaptados a tus necesidades únicas, ayudándote a vivir una vida más plena y saludable.",
-    bgImage: "/src/assets/imgs/carousel/2.avif",
+    bgImage: "/imgs/carousel/2.avif",
   },
   {
     id: 3,
     title: "Tecnología médica de vanguardia",
     description:
       "Accedé a lo último en innovación médica y opciones de tratamiento con nuestras instalaciones de última generación.",
-    bgImage: "/src/assets/imgs/carousel/1.avif",
+    bgImage: "/imgs/carousel/1.avif",
   },
 ]);
 

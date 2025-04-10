@@ -5,7 +5,7 @@
     >
       <!-- Imagen -->
       <img
-        src="@/assets/imgs/doctors/5.png"
+        src="/imgs/doctors/5.png"
         alt="Doctor hablando con paciente"
         class="hidden lg:block w-[400px] rounded-xl shadow-lg object-cover"
       />

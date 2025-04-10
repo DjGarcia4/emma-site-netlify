@@ -14,7 +14,7 @@ export const useBlogStore = defineStore("blog", () => {
   const blogs = [
     {
       id: 1,
-      image: "/src/assets/imgs/blog/1.jpg",
+      image: "/imgs/blog/1.jpg",
       date: "08/03/2019",
       title:
         "Luchadora del cáncer: “Admiré mis senos en el espejo por última vez y lloré”",
@@ -23,7 +23,7 @@ export const useBlogStore = defineStore("blog", () => {
     },
     {
       id: 2,
-      image: "/src/assets/imgs/blog/2.png",
+      image: "/imgs/blog/2.png",
       date: "07/03/2019",
       title: "Signos y síntomas del cáncer",
       description:
@@ -31,7 +31,7 @@ export const useBlogStore = defineStore("blog", () => {
     },
     {
       id: 3,
-      image: "/src/assets/imgs/blog/3.jpg",
+      image: "/imgs/blog/3.jpg",
       date: "01/03/2019",
       title:
         "¡Porque juntos somos más! Mazola apoya la lucha contra el Cáncer de Mama",
@@ -40,7 +40,7 @@ export const useBlogStore = defineStore("blog", () => {
     },
     {
       id: 4,
-      image: "/src/assets/imgs/blog/4.avif",
+      image: "/imgs/blog/4.avif",
       date: "03/02/2019",
       title: "¿Qué es el cáncer de mama?",
       description:
@@ -48,7 +48,7 @@ export const useBlogStore = defineStore("blog", () => {
     },
     {
       id: 5,
-      image: "/src/assets/imgs/blog/5.avif",
+      image: "/imgs/blog/5.avif",
       date: "03/12/2018",
       title: "Cómo prevenir el cáncer de mama",
       description:

@@ -4,7 +4,7 @@
       subtitle="Nuestra Historia"
       title="Más de 30 años de lucha y esperanza"
       description="Desde 1990, el Centro de Cáncer Emma Romero de Callejas ha crecido paso a paso con el compromiso de servir a Honduras. Conocé cómo inició todo y descubre los hitos más importantes que han marcado nuestro camino."
-      imageSrc="/src/assets/imgs/timeline/collage.png"
+      imageSrc="/imgs/timeline/collage.png"
       imageAlt="Doctores trabajando"
     />
     <TimelineSection />

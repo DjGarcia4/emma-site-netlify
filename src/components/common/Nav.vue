@@ -15,8 +15,8 @@
           <img
             :src="
               scrolledOrForced || isMenuOpen
-                ? '/src/assets/imgs/logos/Logo.png'
-                : '/src/assets/imgs/logos/LogoWhite.png'
+                ? '/imgs/logos/Logo.png'
+                : '/imgs/logos/LogoWhite.png'
             "
             alt="Logo"
             class="w-[50px] md:w-[70px] transition-all duration-300"

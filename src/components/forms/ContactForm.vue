@@ -17,7 +17,7 @@
       <!-- Imagen -->
       <div class="w-full lg:w-1/2 flex justify-center">
         <img
-          src="/src/assets/imgs/doctors/4.png"
+          src="/imgs/doctors/4.png"
           alt="Doctor"
           class="max-w-xs lg:max-w-md"
         />

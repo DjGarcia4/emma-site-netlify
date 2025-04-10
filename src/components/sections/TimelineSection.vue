@@ -88,30 +88,21 @@ const events = ref([
     title: "Inauguración del centro",
     description:
       "Se inaugura la primera obra del Centro de Cáncer Emma Romero de Callejas.",
-    images: [
-      "/src/assets/imgs/timeline/1990-1.jpg",
-      "/src/assets/imgs/timeline/1990-2.jpg",
-    ],
+    images: ["/imgs/timeline/1990-1.jpg", "/imgs/timeline/1990-2.jpg"],
   },
   {
     date: "1991",
     title: "Primer Módulo: Radioterapia",
     description:
       "Búnker para Radioterapia con Unidad de Cobalto 60 Theratron 80 donada por World Opportunity International.",
-    images: [
-      "/src/assets/imgs/timeline/1991-1.jpg",
-      "/src/assets/imgs/timeline/1991-2.jpg",
-    ],
+    images: ["/imgs/timeline/1991-1.jpg", "/imgs/timeline/1991-2.jpg"],
   },
   {
     date: "1993",
     title: "Segundo Módulo",
     description:
       "Radiología, Radiofluoroscopía, Mamografía, Ultrasonido y Administración.",
-    images: [
-      "/src/assets/imgs/timeline/1993-1.jpg",
-      "/src/assets/imgs/timeline/1993-2.jpg",
-    ],
+    images: ["/imgs/timeline/1993-1.jpg", "/imgs/timeline/1993-2.jpg"],
   },
   {
     date: "1994",
@@ -119,12 +110,12 @@ const events = ref([
     description:
       "Laboratorio, Quimioterapia, Clínicas, Auditorio, Farmacia y Trabajo Social.",
     images: [
-      "/src/assets/imgs/timeline/1994-1.png",
-      "/src/assets/imgs/timeline/1994-2.jpg",
-      "/src/assets/imgs/timeline/1994-3.jpg",
-      "/src/assets/imgs/timeline/1994-4.jpg",
-      "/src/assets/imgs/timeline/1994-5.jpg",
-      "/src/assets/imgs/timeline/1994-6.jpg",
+      "/imgs/timeline/1994-1.png",
+      "/imgs/timeline/1994-2.jpg",
+      "/imgs/timeline/1994-3.jpg",
+      "/imgs/timeline/1994-4.jpg",
+      "/imgs/timeline/1994-5.jpg",
+      "/imgs/timeline/1994-6.jpg",
     ],
   },
   {
@@ -132,25 +123,25 @@ const events = ref([
     title: "Primer Grupo de Apoyo",
     description:
       "Organización del primer grupo de apoyo de sobrevivientes de cáncer de mama.",
-    images: ["/src/assets/imgs/timeline/1995-1.png"],
+    images: ["/imgs/timeline/1995-1.png"],
   },
   {
     date: "1999",
     title: "Cuarto Módulo",
     description: "Medicina nuclear y cómputo.",
-    images: ["/src/assets/imgs/timeline/1999-1.jpg"],
+    images: ["/imgs/timeline/1999-1.jpg"],
   },
   {
     date: "2000",
     title: "Quinto y Sexto Módulo",
     description: "Registro de cáncer, quirófano de braquiterapia y endoscopia.",
     images: [
-      "/src/assets/imgs/timeline/2000-1.jpg",
-      "/src/assets/imgs/timeline/2000-2.jpg",
-      "/src/assets/imgs/timeline/2000-3.jpg",
-      "/src/assets/imgs/timeline/2000-4.jpg",
-      "/src/assets/imgs/timeline/2000-5.jpg",
-      "/src/assets/imgs/timeline/2000-6.jpg",
+      "/imgs/timeline/2000-1.jpg",
+      "/imgs/timeline/2000-2.jpg",
+      "/imgs/timeline/2000-3.jpg",
+      "/imgs/timeline/2000-4.jpg",
+      "/imgs/timeline/2000-5.jpg",
+      "/imgs/timeline/2000-6.jpg",
     ],
   },
   {
@@ -159,20 +150,20 @@ const events = ref([
     description:
       "Primera paciente de Leucemia Linfocítica Aguda, brigadas en 298 municipios, detección de cáncer de próstata, cérvix y mama en población universitaria.",
     images: [
-      "/src/assets/imgs/timeline/2000-7.jpg",
-      "/src/assets/imgs/timeline/2000-8.jpg",
-      "/src/assets/imgs/timeline/2000-9.jpg",
-      "/src/assets/imgs/timeline/2000-10.jpg",
-      "/src/assets/imgs/timeline/2000-11.jpg",
-      "/src/assets/imgs/timeline/2000-12.jpg",
-      "/src/assets/imgs/timeline/2000-13.jpg",
-      "/src/assets/imgs/timeline/2000-14.jpg",
-      "/src/assets/imgs/timeline/2000-15.jpg",
-      "/src/assets/imgs/timeline/2000-16.jpg",
-      "/src/assets/imgs/timeline/2000-17.jpg",
-      "/src/assets/imgs/timeline/2000-18.jpg",
-      "/src/assets/imgs/timeline/2000-19.jpg",
-      "/src/assets/imgs/timeline/2000-20.jpg",
+      "/imgs/timeline/2000-7.jpg",
+      "/imgs/timeline/2000-8.jpg",
+      "/imgs/timeline/2000-9.jpg",
+      "/imgs/timeline/2000-10.jpg",
+      "/imgs/timeline/2000-11.jpg",
+      "/imgs/timeline/2000-12.jpg",
+      "/imgs/timeline/2000-13.jpg",
+      "/imgs/timeline/2000-14.jpg",
+      "/imgs/timeline/2000-15.jpg",
+      "/imgs/timeline/2000-16.jpg",
+      "/imgs/timeline/2000-17.jpg",
+      "/imgs/timeline/2000-18.jpg",
+      "/imgs/timeline/2000-19.jpg",
+      "/imgs/timeline/2000-20.jpg",
     ],
   },
   {
@@ -180,10 +171,7 @@ const events = ref([
     title: "Convenios y Reconocimientos",
     description:
       "Convenios con la UNAH y reconocimiento al Dr. Antonio Barrios por la Universidad de Tulane.",
-    images: [
-      "/src/assets/imgs/timeline/2000-21.png",
-      "/src/assets/imgs/timeline/2000-22.png",
-    ],
+    images: ["/imgs/timeline/2000-21.png", "/imgs/timeline/2000-22.png"],
   },
   {
     date: "15 noviembre 2013",
@@ -191,13 +179,13 @@ const events = ref([
     description:
       "Inauguración del centro de Teleterapia con Acelerador Lineal y Braquiterapia de alta tasa de dosis.",
     images: [
-      "/src/assets/imgs/timeline/2013-1.jpg",
-      "/src/assets/imgs/timeline/2013-2.jpg",
-      "/src/assets/imgs/timeline/2013-3.jpg",
-      "/src/assets/imgs/timeline/2013-4.jpg",
-      "/src/assets/imgs/timeline/2013-5.jpg",
-      "/src/assets/imgs/timeline/2013-6.jpg",
-      "/src/assets/imgs/timeline/2013-7.jpg",
+      "/imgs/timeline/2013-1.jpg",
+      "/imgs/timeline/2013-2.jpg",
+      "/imgs/timeline/2013-3.jpg",
+      "/imgs/timeline/2013-4.jpg",
+      "/imgs/timeline/2013-5.jpg",
+      "/imgs/timeline/2013-6.jpg",
+      "/imgs/timeline/2013-7.jpg",
     ],
   },
 ]);

@@ -5,7 +5,7 @@
       subtitle="Acerca de Nosotros"
       title="Somos un equipo dedicado a tu bienestar"
       description="Nuestro equipo multidisciplinario está comprometido con ofrecer atención médica de calidad y personalizada."
-      imageSrc="/src/assets/imgs/doctors/1.png"
+      imageSrc="/imgs/doctors/1.png"
       imageAlt="Doctores trabajando"
       buttonText="Más sobre nosotros"
       buttonTo="/about-us"
@@ -13,7 +13,7 @@
     <DepartmentsSection />
     <ServicesSection />
     <AppointmentForm
-      image="/src/assets/imgs/doctors/2.avif"
+      image="/imgs/doctors/2.avif"
       title="¡No pongas tu salud en segundo plano!"
       description="Agenda una cita con uno de nuestros especialistas y toma el control de tu salud hoy mismo."
       buttonText="Agendar cita"

@@ -5,7 +5,7 @@
     <WhatWeDoSection />
     <!-- <ServicesSection /> -->
     <CallToAction
-      image="/src/assets/imgs/timeline/1990-1.jpg"
+      image="/imgs/timeline/1990-1.jpg"
       title="Conocé cómo comenzó todo"
       description="Descubrí la historia del Centro de Cáncer Emma Romero de Callejas, desde sus inicios humildes hasta convertirse en un referente nacional en la lucha contra el cáncer. Cada año, un paso más cerca de la esperanza."
       buttonText="Ver nuestra historia"

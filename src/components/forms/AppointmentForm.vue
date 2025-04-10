@@ -18,11 +18,7 @@
 
         <!-- Imagen -->
         <div class="w-full flex justify-center">
-          <img
-            src="/src/assets/imgs/doctors/7.png"
-            alt="Doctor"
-            class="w-[700px]"
-          />
+          <img src="/imgs/doctors/7.png" alt="Doctor" class="w-[700px]" />
         </div>
       </div>
       <!-- Formulario para agendar cita -->
