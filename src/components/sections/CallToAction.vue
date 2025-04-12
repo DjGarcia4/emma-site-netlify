@@ -22,8 +22,21 @@
         <div>
           <h2 class="text-2xl md:text-4xl font-bold mb-4">{{ title }}</h2>
           <p class="text-sm md:text-base mb-4">{{ description }}</p>
+
+          <!-- Botón para link externo -->
+          <a
+            v-if="buttonText && buttonTo && external"
+            :href="buttonTo"
+            class="inline-block bg-white text-green-800 font-semibold px-5 py-2 rounded-full hover:bg-green-100 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ buttonText }}
+          </a>
+
+          <!-- Botón para rutas internas -->
           <RouterLink
-            v-if="buttonText && buttonTo"
+            v-else-if="buttonText && buttonTo"
             :to="buttonTo"
             class="inline-block bg-white text-green-800 font-semibold px-5 py-2 rounded-full hover:bg-green-100 transition"
           >
@@ -60,6 +73,10 @@ defineProps({
   buttonTo: {
     type: String,
     default: "",
+  },
+  external: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>

@@ -1,6 +1,14 @@
 <template>
   <div class="lg:space-y-7">
     <Carousel />
+    <CallToAction
+      image="/imgs/sections/donar.avif"
+      title="Unite a la lucha contra el cáncer"
+      description="Tu donación hace la diferencia. Con tu apoyo, podemos seguir brindando atención médica de calidad, esperanza y acompañamiento a quienes más lo necesitan. ¡Ayudanos a salvar más vidas!"
+      buttonText="Donar ahora"
+      :buttonTo="'https://www.ahlcancer.org/donate'"
+      :external="true"
+    />
     <InfoBlock
       subtitle="Acerca de Nosotros"
       title="Somos un equipo dedicado a tu bienestar"
