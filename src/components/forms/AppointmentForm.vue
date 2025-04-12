@@ -1,7 +1,6 @@
 <template>
   <div class="">
     <div
-      id="contactForm"
       class="max-w-7xl mx-auto p-6 flex flex-col lg:flex-row items-center gap-10"
     >
       <div>
