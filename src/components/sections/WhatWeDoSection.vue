@@ -9,14 +9,19 @@
           v-for="(item, index) in items"
           :key="index"
           :class="[
-            'flex flex-col items-center justify-center w-[160px] h-[160px] rounded-xl bg-gradient-to-br from-green-100 to-green-200 shadow hover:scale-105 transition-transform duration-200 text-center',
+            'flex flex-col items-center justify-center w-[150px] h-[150px] lg:w-[160px] lg:h-[160px] rounded-xl bg-gradient-to-br from-green-100 to-green-200 shadow hover:scale-105 transition-transform duration-200 text-center',
             getPositionClass(index),
           ]"
         >
           <div class="text-3xl md:text-4xl text-green-800 mb-2">
-            <font-awesome-icon :icon="item.icon" class="text-5xl mb-3" />
+            <font-awesome-icon
+              :icon="item.icon"
+              class="text-4xl md:text-5xl mb-3"
+            />
           </div>
-          <p class="text-xl text-green-800 px-2">{{ item.title }}</p>
+          <p class="text-base md:text-xl text-green-800 px-2">
+            {{ item.title }}
+          </p>
         </div>
       </div>
 
